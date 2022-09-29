@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import { Canvas } from "./canvas/canvas";
+import { MainComponent } from "./main";
 
 function canvasHook(canvas: any) {
   // code goes here
@@ -10,7 +9,7 @@ function canvasHook(canvas: any) {
 function App() {
   return (
     <div className="App">
-      <Canvas canvasHook={canvasHook} width={600} height={600}></Canvas>
+      <MainComponent></MainComponent>
     </div>
   );
 }
