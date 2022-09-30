@@ -17,7 +17,7 @@ export function NavBarComponent(props: {}) {
         }}
       >
         <nav>
-          <NavButton label="About Us" linkTo="/"></NavButton>
+          <NavButton label="About Me" linkTo="/"></NavButton>
         </nav>
         <Stack direction="row" spacing={2}>
           <TwitterIcon></TwitterIcon>

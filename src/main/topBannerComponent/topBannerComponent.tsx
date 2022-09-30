@@ -5,7 +5,7 @@ function TopBannerComponent() {
   return (
     <>
       <div style={topBannerStyle}>
-        <h1 style={bannerTextStyle}>My Cool Website</h1>
+        <h1 style={bannerTextStyle}>Christie Ziegler</h1>
       </div>
     </>
   );
