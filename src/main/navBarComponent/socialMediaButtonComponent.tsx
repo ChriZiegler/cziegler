@@ -21,7 +21,7 @@ export function TwitterIcon() {
     <>
       <SocialMediaIcon
         iconPath="/assets/socialMediaIcons/twitter.svg"
-        url="https://twitter.com/"
+        url="https://twitter.com/chriziegler"
         altText="Link to twitter"
       ></SocialMediaIcon>
     </>
