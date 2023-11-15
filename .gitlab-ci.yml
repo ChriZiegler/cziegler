@@ -9,8 +9,6 @@ s3_deploy:
     - npm run build
     - echo "Pushing the static files"
     - aws s3 sync build/ s3://christieziegler.com/ --acl public-read
-    - echo "Clearing cloudfront cache"
-    - aws cloudfront create-invalidation --distribution-id E3MSMFVLDFBKM1 --paths "/*" 
   only:
     - main
 
