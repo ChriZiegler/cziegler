@@ -1,7 +1,9 @@
 export function LandingPage() {
   return (
     <>
-      <h1>Welcome to my website</h1>
+      <img style={{ display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto'}} src="assets/images/website_welcome.gif" alt="A sparkling text that reads 'Welcome to my website'"></img>
       <p>
         Hi there! My name is Christie Ziegler and I am a fullstack software
         developer with a focus on <b>Python, React,</b> and <b>Typescript</b>.
@@ -13,7 +15,8 @@ export function LandingPage() {
       <h1>About me</h1>
       <p>
         I am a human person with interests in software development, art, video
-        games, and rock collecting. I live in the Chicago area with my cat. {" "}
+        games, and rock collecting. I am 31 years old with about 10 years of software development experience.
+        I live in the Chicago area with my cat. {" "}
         I have a bachelor's degree in Integrative Biology from UC
         Berkeley, with a particular focus on <b>evolutionary biology</b> and{" "}
         <b>botany</b>. My particular art interests are widespread and include{" "}
@@ -22,7 +25,7 @@ export function LandingPage() {
       </p>
       <h2>Gender? I hardly know her!</h2>
       <p>When asked my gender, certain responses spring to mind, such as "Who's asking" and
-        "What are you, a cop?". But what you have to remember is, gender is a performance,
+        "What are you, a cop?". But what you have to understand is, gender is a performance,
         and I'm ditching drama class. 
         <br></br>
         In all seriousness, the truth is I don't worry about my gender very much

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./landingPage";
 import { Writing } from "./writing/writing";
+import { Blog } from "./blog";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -17,6 +18,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route path="/" element={<LandingPage></LandingPage>}></Route>
           <Route path="/writing" element={<Writing></Writing>}></Route>
+          <Route path="/blog" element={<Blog></Blog>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -20,9 +20,9 @@ export function TwitterIcon() {
   return (
     <>
       <SocialMediaIcon
-        iconPath="/assets/socialMediaIcons/twitter.svg"
-        url="https://twitter.com/chriziegler"
-        altText="Link to twitter"
+        iconPath="/assets/socialMediaIcons/github.svg"
+        url="https://github.com/ChriZiegler"
+        altText="Link to github"
       ></SocialMediaIcon>
     </>
   );

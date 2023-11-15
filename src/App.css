@@ -6,3 +6,7 @@ html {
     background-size: cover;
     font-family: Roboto;
   }
+
+a {
+  color:white
+}
