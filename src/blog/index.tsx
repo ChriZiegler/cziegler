@@ -4,6 +4,49 @@ export function Blog() {
     <h1>My Blog</h1>
     <hr></hr>
     <div>
+    <h3>November 16 2023</h3>
+        <p>
+            Reading: <a href='https://en.wikipedia.org/wiki/House_of_Leaves'><span style={{'color':"#0590ed"}}>House</span> of Leaves</a>
+            <br></br>
+            Playing: Story of Seasons: A Wonderful Life
+            <br></br>
+            Mood: Fine
+        </p>
+        <div style={{'display':'flex'}}>
+            <div style={{'flexGrow': 3}}>
+                <p>
+                    Praise the library! Scanners, printers, and books, all free for anyone!
+                    I finally made it down to scan in some artwork,
+                    do enjoy this very realistic drawing of my cat
+                </p>
+                <p>
+                    I've also updated my landing page with a self-portrait. I hate to choose 
+                    a picture with a mask over my face but it is truly the best picture I 
+                    could find of myself. Also faces are hard to draw so that kinda worked out.
+                    The cat is a little fella from the cat shelter named Stripe, a total shoulder-cat!.
+                </p>
+                <p>
+                    Today's Song of the Day is "A Sadness Runs Through Him" by The Hoosiers. I can't stop listening to it, mostly because of the 
+                    beautiful vocals. The version I like isn't on bandcamp but please enjoy the acoustic version!
+                    <br></br> 
+                    <iframe title="A Sadness Runs Through Him" style={{'border':'0','width':'400px','height':'42px' }} src="https://bandcamp.com/EmbeddedPlayer/album=3633792719/size=small/bgcol=333333/linkcol=ffffff/track=1658668860/transparent=true/" seamless><a href="https://thehoosiers.bandcamp.com/album/greatest-hit-s">Greatest Hit(s) by The Hoosiers</a></iframe>
+                    <blockquote>
+                        Don't look at me with those eyes<br></br>
+                        I tried to unheave the ties<br></br>
+                        Turn back the tide that drew him<br></br>
+                        But he couldn't be saved<br></br>
+                        A sadness runs through him<br></br>
+                    </blockquote>
+                </p>
+            </div>
+            <div>
+                <img style={{'flexGrow': 1}} src="assets/images/mimi_poof.png" alt="Colored pencil illustration of a cartoonish black cat. The cat resembles a ball of fur with a tail." height="200px"></img>
+                <p style={{'fontSize': '14px'}}>Her name is Mimi, by the way</p>
+            </div>
+        </div>
+    </div>
+    <hr></hr>
+    <div>
     <h3>November 15 2023</h3>
         <p>
             Reading: <a href='https://en.wikipedia.org/wiki/House_of_Leaves'><span style={{'color':"#0590ed"}}>House</span> of Leaves</a>
@@ -25,7 +68,7 @@ export function Blog() {
                     Starting to think climbing out of the water 375 million years ago was a mistake
                 </p>
                 <p>
-                    Let's keep the mewithoutyou train going with today's Song of the Day, <i>The Fox, the Crow, and the Cookie</i>. This song recounts an old aesop's fable, 
+                    Let's keep the mewithoutyou train going with today's Song of the Day, "The Fox, the Crow, and the Cookie". This song recounts an old aesop's fable, 
                     and it's one of my favorites! I particularly like the bird puns
                     <br></br> 
                     <iframe title='The Fox, the Crow, and the Cookie' style={{'border':'0','width':'400px','height':'42px' }} src="https://bandcamp.com/EmbeddedPlayer/album=2379879436/size=small/bgcol=000000/linkcol=ffffff/track=3707973561/transparent=true/" seamless><a href="https://mewithoutyou.bandcamp.com/album/its-all-crazy-its-all-false-its-all-a-dream-its-alright">It&#39;s All Crazy! It&#39;s All False! It&#39;s All a Dream! It&#39;s Alright by mewithoutYou</a></iframe>
