@@ -14,12 +14,12 @@ export function LandingPage() {
       Github.
       </p>
       <div style={{display:'flex', alignItems:'center', justifyContent: 'space-around'}}>
-        <div>
-          <img style={{width:'300px'}} src="assets/images/mimi_rainbow.png" alt="A colored pencil illustration of a black cat biting a rainbow toy. The cat is labelled 'my cat'"></img>
+        <div style={{display:'flex', flexDirection:'column'}}>
+          <img style={{height:'300px'}} src="assets/images/mimi_rainbow.png" alt="A colored pencil illustration of a black cat biting a rainbow toy. The cat is labelled 'my cat'"></img>
           <p style={{fontSize:'14px'}}>My cat Mimi. She is 16 years old and a total cuddle bug!</p>
         </div>
-        <div>
-          <img style={{width:'300px'}} src="assets/images/selfportrait.png" alt="A colored pencil illustration of a person with short hair and an orange cat on their shoulder. The person is labelled 'me' and the cat is labelled 'not my cat'"></img>
+        <div style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
+          <img style={{height:'300px'}} src="assets/images/selfportrait.png" alt="A colored pencil illustration of a person with short hair and an orange cat on their shoulder. The person is labelled 'me' and the cat is labelled 'not my cat'"></img>
           <p style={{fontSize:'14px'}}>It's me! The cat is from the shelter I volunteer at - his name is Stripe!</p>
         </div>
       </div>
