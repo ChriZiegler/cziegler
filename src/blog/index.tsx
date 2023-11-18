@@ -4,6 +4,44 @@ export function Blog() {
     <h1>My Blog</h1>
     <hr></hr>
     <div>
+    <h3>November 17 2023</h3>
+        <p>
+        Reading: <a href='https://en.wikipedia.org/wiki/House_of_Leaves'><span style={{'color':"#0590ed"}}>House</span> of Leaves</a>
+            <br></br>
+            Playing: Story of Seasons: A Wonderful Life
+            <br></br>
+            Mood: Impatient
+        </p>
+        <div style={{'display':'flex'}}>
+            <div style={{'flexGrow': 1}}>
+                <img style={{'flexGrow': 1}} src="assets/images/dinosaur_teapots.jpg" alt="A pile of keychains. The design is a steaming teapot in the shape of a long-necked dinosaur" height="400px"></img>
+                <p style={{'fontSize': '14px'}}>Keychains!</p>
+            </div>
+            <div style={{'flexGrow': 3}}>
+                <p>
+                    Care for sauro<b>pot</b> of tea? A cup of <b>chai</b>-nosaur perhaps? uhhh...<b>Diplodocus</b>. These dinosaur tea puns are hard, ok?
+                </p>
+                <p>
+                    That is to say, the keychains for my kickstarter have arrived at long last! Thank you to everyone who got one, I will be mailing
+                    them out shortly or just handing them to you in person, because if you are reading this chances are you are probably one of my friends. 
+                    I can now say I have run a successful kickstarter campaign....... even if I had some help (thanks Mom)
+                </p>
+                <p>
+                     May today's Song of the Day help you float peacefully into space
+                    <br></br> 
+                    <iframe title="Space Cadet" style={{'border':'0','width':'400px','height':'42px' }} src="https://bandcamp.com/EmbeddedPlayer/album=2361108246/size=small/bgcol=333333/linkcol=ffffff/track=2476554469/transparent=true/" seamless><a href="https://beabadoobee.bandcamp.com/album/space-cadet">Space Cadet by beabadoobee</a></iframe>
+                    <blockquote>
+                        Through the milky way<br></br>
+                        Past the morning sun <br></br>
+                        Pluto is light years away<br></br>
+                        And all our worries, they're all gone<br></br>
+                    </blockquote>
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr></hr>
+    <div>
     <h3>November 16 2023</h3>
         <p>
             Reading: <a href='https://en.wikipedia.org/wiki/House_of_Leaves'><span style={{'color':"#0590ed"}}>House</span> of Leaves</a>
